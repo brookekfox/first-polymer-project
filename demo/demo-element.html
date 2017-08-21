@@ -1,5 +1,14 @@
 <link rel="import" href="../../polymer/polymer.html">
 <link rel="import" href="../../iron-icons/iron-icons.html">
+<link rel="import" href="../../iron-icons/maps-icons.html">
+<link rel="import" href="../../iron-icons/notification-icons.html">
+<link rel="import" href="../../iron-icons/places-icons.html">
+<link rel="import" href="../../iron-icons/social-icons.html">
+<link rel="import" href="../../iron-icons/update-icons.html">
+<link rel="import" href="../../iron-icons/image-icons.html">
+<link rel="import" href="../../iron-icons/editor-icons.html">
+<link rel="import" href="../../iron-icons/hardware-icons.html">
+<link rel="import" href="../../iron-icons/device-icons.html">
 <link rel="import" href="../icon-toggle.html">
 
 
@@ -9,21 +18,31 @@
       :host {
         font-family: sans-serif;
         --icon-toggle-color: lightgrey;
-        --icon-toggle-outline-color: black;
-        --icon-toggle-pressed-color: red;
+        --icon-toggle-outline-color: #4285f4;
+        --icon-toggle-pressed-color: #4285f4;
       }
     </style>
   
     <h3>Statically-configured icon-toggles</h3>
     
     <icon-toggle toggle-icon="star"></icon-toggle>
-    <icon-toggle toggle-icon="star" pressed></icon-toggle>
-    <!-- <icon-toggle toggle-icon="add"></icon-toggle>
-    <icon-toggle toggle-icon="add" pressed></icon-toggle>
-    <icon-toggle toggle-icon="menu"></icon-toggle>
-    <icon-toggle toggle-icon="menu" pressed></icon-toggle>
     <icon-toggle toggle-icon="settings"></icon-toggle>
-    <icon-toggle toggle-icon="settings" pressed></icon-toggle> -->
+    <icon-toggle toggle-icon="maps:directions-bus"></icon-toggle>
+    <icon-toggle toggle-icon="places:beach-access"></icon-toggle>
+    <icon-toggle toggle-icon="places:pool"></icon-toggle>
+    <icon-toggle toggle-icon="places:kitchen"></icon-toggle>
+    <icon-toggle toggle-icon="image:camera-roll"></icon-toggle>
+    <icon-toggle toggle-icon="social:mood"></icon-toggle>
+    <icon-toggle toggle-icon="device:battery-alert"></icon-toggle>
+    <icon-toggle toggle-icon="device:developer-mode"></icon-toggle>
+    <icon-toggle toggle-icon="device:devices"></icon-toggle>
+    <icon-toggle toggle-icon="editor:highlight"></icon-toggle>
+    <icon-toggle toggle-icon="editor:insert-comment"></icon-toggle>
+    <icon-toggle toggle-icon="notification:rv-hookup"></icon-toggle>
+    <icon-toggle toggle-icon="notification:vibration"></icon-toggle>
+    <icon-toggle toggle-icon="notification:wc"></icon-toggle>
+    <icon-toggle toggle-icon="notification:wifi"></icon-toggle>
+    <icon-toggle toggle-icon="hardware:desktop-mac"></icon-toggle>
     
     <h3>Data-bound icon-toggle</h3>
 
